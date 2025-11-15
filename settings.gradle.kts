@@ -2,9 +2,11 @@ pluginManagement {
     val kotlinVersion: String by settings
     plugins {
         id("org.jetbrains.kotlin.jvm") version kotlinVersion
+        id("org.jlleitschuh.gradle.ktlint") version "13.0.0"
     }
     repositories {
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 
@@ -14,7 +16,7 @@ dependencyResolutionManagement {
     }
 }
 
-plugins { }
+plugins {}
 
 rootProject.name = "arch-vertx-01"
 

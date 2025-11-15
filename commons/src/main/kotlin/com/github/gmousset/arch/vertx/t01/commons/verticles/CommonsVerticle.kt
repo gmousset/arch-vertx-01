@@ -1,4 +1,4 @@
-package com.github.gmousset.arch.vertx.t01.commons
+package com.github.gmousset.arch.vertx.t01.commons.verticles
 
 import io.vertx.core.Future
 import io.vertx.core.VerticleBase
